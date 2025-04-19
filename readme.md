@@ -7,7 +7,7 @@
 
 ## Find .yml files that contain substring `vector` in current directory and subdirectories
 
-find . -name "*.yml" -exec grep -l "vector" {} \;
+`find . -name "*.yml" -exec grep -l "vector" {} \;`
 
 * -l option in grep only returns the NAMES of files that match
 * By default, grep returns the matching lines
